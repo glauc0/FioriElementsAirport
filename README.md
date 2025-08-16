@@ -21,3 +21,7 @@ STEP 5 - Airport ID and Name in the same column
 STEP 6
 
 <img width="1385" height="547" alt="image" src="https://github.com/user-attachments/assets/d79fe3b5-76b8-4dc8-a3b1-6b2966e8482f" />
+
+STEP 7
+
+<img width="1359" height="563" alt="image" src="https://github.com/user-attachments/assets/304d80e0-e3a3-4f1d-bc4c-46bd10c52640" />
