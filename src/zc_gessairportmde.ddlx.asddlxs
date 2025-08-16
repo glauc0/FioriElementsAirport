@@ -4,7 +4,8 @@
     headerInfo: {
     typeName: 'Airport',
     typeNamePlural: 'Airports',
-    title: { type: #STANDARD, value: 'Name' }
+    title: { type: #STANDARD, value: 'Name' },
+    description: { type: #STANDARD, value: 'AirportID' }
     }
 }
 @Search.searchable: true // Step 3
