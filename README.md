@@ -5,3 +5,7 @@ STEP 1
 STEP 2
 
 <img width="1280" height="489" alt="image" src="https://github.com/user-attachments/assets/5a9187c0-109f-4e9a-abad-37e637c70f3e" />
+
+STEP 3
+
+<img width="1247" height="276" alt="image" src="https://github.com/user-attachments/assets/ffa34914-b725-40c0-85bf-d62d2c05145a" />
