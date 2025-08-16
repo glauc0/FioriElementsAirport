@@ -12,6 +12,7 @@
 define view entity ZC_GESSAirport as select from /DMO/I_Airport
 {
     @ObjectModel.text.element: [ 'Name' ] // Step 4
+    @Consumption.valueHelpDefinition: [{ entity: { element: 'AirportID', name: 'ZI_GESSAirportVH' } }] // Step 7
     key AirportID,
     Name,
     City,
