@@ -3,7 +3,9 @@
 {
 "FROM":
 [
-"/DMO/I_AIRPORT"
+"/DMO/I_AIRPORT",
+"I_COUNTRY",
+"I_COUNTRYTEXT"
 ],
 "ASSOCIATED":
 [

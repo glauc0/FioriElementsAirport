@@ -14,7 +14,8 @@ define view entity ZC_GESSAirport as select from /DMO/I_Airport
     @ObjectModel.text.element: [ 'Name' ] // Step 4
     key AirportID,
     Name,
-    City, 
+    City,
+    _Country._Text[1: Language = $session.system_language ].CountryName, // Step 6
     CountryCode,
     
     /* Associations */
