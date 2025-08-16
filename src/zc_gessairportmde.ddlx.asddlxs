@@ -1,0 +1,26 @@
+@Metadata.layer: #CORE
+@UI: {
+    headerInfo: {
+    typeName: 'Airport',
+    typeNamePlural: 'Airports',
+    title: { type: #STANDARD, value: 'Name' }
+    }
+}
+annotate entity ZC_GESSAirport with
+{
+  @UI.selectionField: [{ position: 10 }]
+  @UI.lineItem: [{ position: 10 }]
+  AirportID;
+
+  @UI.selectionField: [{ position: 20 }]
+  @UI.lineItem: [{ position: 20 }]
+  Name;
+
+  @UI.selectionField: [{ position: 30 }]
+  @UI.lineItem: [{ position: 30 }]
+  City;
+
+  @UI.selectionField: [{ position: 40 }]
+  @UI.lineItem: [{ position: 40 }]
+  CountryCode;
+}
