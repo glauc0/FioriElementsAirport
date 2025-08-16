@@ -1,0 +1,4 @@
+@EndUserText.label: 'Airport (Service Definition)'
+define service ZSD_GESSAirport_V4 {
+  expose ZC_GESSAirport as Airport;
+}
