@@ -25,3 +25,7 @@ STEP 6
 STEP 7
 
 <img width="1359" height="563" alt="image" src="https://github.com/user-attachments/assets/304d80e0-e3a3-4f1d-bc4c-46bd10c52640" />
+
+STEP 8
+
+<img width="1009" height="262" alt="image" src="https://github.com/user-attachments/assets/4947c1d9-ece1-4d74-b46a-7fee07c5b3a8" />
