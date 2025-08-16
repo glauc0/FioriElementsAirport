@@ -1,3 +1,4 @@
+// Step 1 BEGIN
 @AbapCatalog.viewEnhancementCategory: [#NONE]
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Airport (Consumption)'
@@ -18,3 +19,4 @@ define view entity ZC_GESSAirport as select from /DMO/I_Airport
     /* Associations */
     _Country
 }
+// Step 1 END

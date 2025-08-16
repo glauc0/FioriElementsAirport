@@ -1,3 +1,4 @@
+// Step 2 BEGIN
 @Metadata.layer: #CORE
 @UI: {
     headerInfo: {
@@ -6,6 +7,7 @@
     title: { type: #STANDARD, value: 'Name' }
     }
 }
+@Search.searchable: true // Step 3
 annotate entity ZC_GESSAirport with
 {
   @UI.selectionField: [{ position: 10 }]
@@ -14,13 +16,18 @@ annotate entity ZC_GESSAirport with
 
   @UI.selectionField: [{ position: 20 }]
   @UI.lineItem: [{ position: 20 }]
+  @Search.defaultSearchElement: true // Step 3
+  @Search.fuzzinessThreshold: 0.8 // Step 3
   Name;
 
   @UI.selectionField: [{ position: 30 }]
   @UI.lineItem: [{ position: 30 }]
+  @Search.defaultSearchElement: true // Step 3
+  @Search.fuzzinessThreshold: 0.8 // Step 3
   City;
 
   @UI.selectionField: [{ position: 40 }]
   @UI.lineItem: [{ position: 40 }]
   CountryCode;
 }
+// Step 2 END
